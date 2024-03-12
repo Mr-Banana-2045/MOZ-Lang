@@ -2,7 +2,7 @@
 ## abute
 compiler or Encoding
 ## read document
-<a href="https://github.com/mr-banana-2045/MozLang.html">View Document</a>
+<a href="https://github.com/mr-banana-2045/MOZLang.html">View Document</a>
 ## photo
 ![IMG_20240312_215029](https://github.com/Mr-Banana-2045/MOZ-Lang/assets/109140672/0943deb3-c26a-4c79-86eb-d661643bf51e)
 
