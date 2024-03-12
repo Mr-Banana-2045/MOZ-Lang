@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="top|center"
+	android:orientation="vertical"
+	android:background="#F2F2F2">
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:ems="10"
+		android:id="@+id/mainEditText1"
+		android:hint="Enter Code ..."
+		android:paddingLeft="10dp"
+		android:textSize="12sp"
+		android:textStyle="bold"
+		android:typeface="monospace"
+		android:textColorHint="#CFE200"
+		android:textColor="#000000"
+		android:textColorHighlight="#CFE200"
+		android:paddingRight="10dp"
+		android:layout_marginTop="10dp"
+		android:background="@drawable/input"
+		android:inputType="text"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"/>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_marginTop="5dp"
+		android:background="@drawable/border"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:padding="5dp"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_marginBottom="10dp">
+
+		<LinearLayout
+			android:layout_height="200dp"
+			android:layout_width="match_parent">
+
+			<TextView
+				android:layout_width="22dp"
+				android:layout_height="match_parent"
+				android:text="1 2 3 4 5 6 7 8 9 10"
+				android:padding="1dp"
+				android:paddingTop="15dp"
+				android:background="#EAF695"
+				android:textColor="#000000"
+				android:textSize="15sp"
+				android:typeface="normal"
+				android:paddingRight="10dp"
+				android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp"
+				android:textStyle="bold"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:textColor="#8F8F8F"
+				android:typeface="monospace"
+				android:textSize="15sp"
+				android:paddingLeft="10dp"
+				android:background="#FFFFFF"
+				android:id="@+id/mainTextView2"
+				android:textColorHighlight="#CFA200"
+				android:textIsSelectable="true"
+				android:textColorHint="#DBDBDB"
+				android:text="input ..."/>
+
+		</LinearLayout>
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="5dp"
+			android:background="#CFE200"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="output : "
+			android:textSize="15sp"
+			android:textStyle="bold"
+			android:textColor="#000000"
+			android:typeface="monospace"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="10dp"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/mainTextView1"
+			android:text=""
+			android:textSize="20sp"
+			android:padding="10dp"
+			android:textStyle="bold"
+			android:textColor="#000000"
+			android:typeface="monospace"/>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:gravity="bottom">
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Compile"
+				android:id="@+id/mainButton1"
+				android:background="#CFE200"
+				android:typeface="monospace"
+				android:shadowRadius="20"
+				android:textStyle="bold"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+
