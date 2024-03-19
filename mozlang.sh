@@ -1,3 +1,142 @@
+f=""
+while [[ $# -gt 0 ]]
+do
+key="$1"
+case $key in
+-f)
+file="$2"
+while IFS= read -r line
+do
+if [[ $line == *"*"* ]]; then
+    par=(${line//\*/ })
+    for pa in "${par[@]}"; do
+        if [[ $pa == "mozmozmozmozmoz" ]]; then                                                                                                                     echo -n "a"                                                                                                                                         elif [[ $pa == "mozmozmozmozmozmoz" ]]; then
+            echo -n "b"                                                                                                                                         elif [[ $pa == "mozmozmozmozmozmozmoz" ]]; then
+            echo -n "c"
+        elif [[ $pa == "mozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "d"
+        elif [[ $pa == "mozmoz" ]]; then
+            echo -n "e"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "f"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "g"
+        elif [[ $pa == "mozmozmoz" ]]; then
+            echo -n "h"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "i"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "j"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "k"
+        elif [[ $pa == "moz" ]]; then
+            echo -n "l"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "m"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "n"
+        elif [[ $pa == "mozmozmozmoz" ]]; then
+            echo -n "o"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "p"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "q"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "r"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "t"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "u"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "v"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "w"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "x"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "y"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "z"
+        elif [[ $pa == "mooz" ]]; then
+            echo -n "@"
+        elif [[ $pa == "moooz" ]]; then
+            echo -n "#"
+        elif [[ $pa == "mooooz" ]]; then
+            echo -n "$"
+        elif [[ $pa == "moooooz" ]]; then
+            echo -n "_"
+        elif [[ $pa == "mooooooz" ]]; then
+            echo -n "&"
+        elif [[ $pa == "moooooooz" ]]; then
+            echo -n "-"
+        elif [[ $pa == "mooooooooz" ]]; then
+            echo -n "+"
+        elif [[ $pa == "moooooooooz" ]]; then
+            echo -n "("
+        elif [[ $pa == "mooooooooooz" ]]; then
+            echo -n ")"
+        elif [[ $pa == "moooooooooooz" ]]; then
+            echo -n ")"
+        elif [[ $pa == "mooooooooooooz" ]]; then
+            echo -n "/"
+        elif [[ $pa == "moooooooooooooz" ]]; then
+            echo -n ":"
+        elif [[ $pa == "mooooooooooooooz" ]]; then
+            echo -n ";"
+        elif [[ $pa == "moooooooooooooooz" ]]; then
+            echo -n "!"
+        elif [[ $pa == "mooooooooooooooooz" ]]; then
+            echo -n "?"
+        elif [[ $pa == "moooooooooooooooooz" ]]; then
+            echo -n "="
+        elif [[ $pa == "mooooooooooooooooooz" ]]; then
+            echo -n "×"
+        elif [[ $pa == "moooooooooooooooooooz" ]]; then
+            echo -n "%"
+        elif [[ $pa == "mooooooooooooooooooooz" ]]; then
+            echo -n "<"
+        elif [[ $pa == "moooooooooooooooooooooz" ]]; then
+            echo -n ">"
+        elif [[ $pa == "mooooooooooooooooooooooz" ]]; then
+            echo -n "["
+        elif [[ $pa == "moooooooooooooooooooooooz" ]]; then
+            echo -n "]"
+        elif [[ $pa == "mOz" ]]; then
+            echo -n "0"
+        elif [[ $pa == "mOOz" ]]; then
+            echo -n "1"
+        elif [[ $pa == "mOOOz" ]]; then
+            echo -n "2"
+        elif [[ $pa == "mOOOOz" ]]; then
+            echo -n "3"
+        elif [[ $pa == "mOOOOOz" ]]; then
+            echo -n "4"
+        elif [[ $pa == "mOOOOOOz" ]]; then
+            echo -n "5"
+        elif [[ $pa == "mOOOOOOOz" ]]; then
+            echo -n "6"
+        elif [[ $pa == "mOOOOOOOOz" ]]; then
+            echo -n "7"
+        elif [[ $pa == "mOOOOOOOOOz" ]]; then
+            echo -n "8"
+        elif [[ $pa == "mOOOOOOOOOOz" ]]; then
+            echo -n "9"
+        elif [[ $pa == "." ]]; then
+            echo -n " "
+        else
+            echo "Unknown word"
+        fi
+    done
+else
+    echo "Invalid input"
+fi
+done < $2
+echo -e "\n"
+exit
+shift
+;;
+esac
+done
 echo -e "\033[93m"
 echo -e "___  ___         _                       "
 echo -e "|  \/  |        | |                      "
