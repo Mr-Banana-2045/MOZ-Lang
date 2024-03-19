@@ -13,3 +13,4 @@ compiler or Encoding
 ## photo
 ![IMG_20240312_215029](https://github.com/Mr-Banana-2045/MOZ-Lang/assets/109140672/0943deb3-c26a-4c79-86eb-d661643bf51e)
 
+![Polish_20240319_202947605](https://github.com/Mr-Banana-2045/MOZ-Lang/assets/109140672/e24f69b4-cc25-473e-bd9e-3154a07a5135)
