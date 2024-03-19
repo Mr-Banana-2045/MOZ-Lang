@@ -3,7 +3,11 @@
 compiler or Encoding
 ## read document
 <a href="https://mr-banana-2045.github.io/MozLang.html">View Document</a>
+## Open Bash
+<pre>
+  alias mozlang="bash mozlang.sh"
+  mozlang
+</pre>
 ## photo
 ![IMG_20240312_215029](https://github.com/Mr-Banana-2045/MOZ-Lang/assets/109140672/0943deb3-c26a-4c79-86eb-d661643bf51e)
-
 
