@@ -145,12 +145,12 @@ echo -e "| |\/| |/ _ \_  / |    / _\ | \_ \ / _\ |"
 echo -e "| |  | | (_) / /| |___| (_| | | | | (_| |"
 echo -e "\_|  |_/\___/___\_____/\__,_|_| |_|\__, |"
 echo -e "                                    __/ |"
-echo -e "                                   |___/ \033[92mvr 0.1"
+echo -e "                                   |___/ \033[92mvr 1.0"
 while (true);
 do
 echo -e "\n \033[92m"
 read -p "Enter Code > " string
-echo -e "\033[93mouput > "
+echo -e "\033[93moutput > "
 if [[ $string == *"*"* ]]; then
     parts=(${string//\*/ })
     for part in "${parts[@]}"; do
