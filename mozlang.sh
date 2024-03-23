@@ -123,6 +123,78 @@ if [[ $line == *"*"* ]]; then
             echo -n "9"
         elif [[ $pa == "." ]]; then
             echo -n " "
+        elif [[ $pa == "mOoz" ]]; then
+            echo -n ":)"
+        elif [[ $pa == "mOoOz" ]]; then
+            echo -n ";)"
+        elif [[ $pa == "mOoOoz" ]]; then
+            echo -n ":-)"
+        elif [[ $pa == "mOoOoOz" ]]; then
+            echo -n ";-)"
+        elif [[ $pa == "mOoOoOoz" ]]; then
+            echo -n ":-/"
+        elif [[ $pa == "mOoOoOoOz" ]]; then
+            echo -n ";-/"
+        elif [[ $pa == "mOoOoOoOoz" ]]; then
+            echo -n ":|"
+        elif [[ $pa == "mOoOoOoOoOz" ]]; then                                                                         echo -n ";|"                                                                                          elif [[ $pa == "mOoOoOoOoOoz" ]]; then
+            echo -n ":-|"
+        elif [[ $pa == "mOoOoOoOoOoOz" ]]; then
+            echo -n ";-|"
+        elif [[ $pa == "mOoOoOoOoOoOoz" ]]; then
+            echo -n ":]"
+        elif [[ $pa == "mOoOoOoOoOoOoOz" ]]; then
+            echo -n ";]"
+        elif [[ $pa == "mOoOoOoOoOoOoOoz" ]]; then
+            echo -n ":-]"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOz" ]]; then
+            echo -n ";-]"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n ":["
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n ";["
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n ":-["
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n ";-["
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n ":}"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n ";}"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n ":-}"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n ";-}"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n ":{"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n ";{"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n ":-{"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n ";-{"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n "+_+"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n "#_#"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n "=_="
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n "°_°"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n "•_•"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n "×_×"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n "*_*"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n "@_@"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n "O_O"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n "$_$"
+        elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n "^_^"
         else
             echo "Unknown word"
         fi
@@ -150,7 +222,7 @@ while (true);
 do
 echo -e "\n \033[92m"
 read -p "Enter Code > " string
-echo -e "\033[93moutput > "
+echo -e "\033[97m"
 if [[ $string == *"*"* ]]; then
     parts=(${string//\*/ })
     for part in "${parts[@]}"; do
@@ -268,6 +340,80 @@ if [[ $string == *"*"* ]]; then
             echo -n "9"
         elif [[ $part == "." ]]; then
             echo -n " "
+        elif [[ $part == "mOoz" ]]; then
+            echo -n ":)"
+        elif [[ $part == "mOoOz" ]]; then
+            echo -n ";)"
+        elif [[ $part == "mOoOoz" ]]; then
+            echo -n ":-)"
+        elif [[ $part == "mOoOoOz" ]]; then
+            echo -n ";-)"
+        elif [[ $part == "mOoOoOoz" ]]; then
+            echo -n ":-/"
+        elif [[ $part == "mOoOoOoOz" ]]; then
+            echo -n ";-/"
+        elif [[ $part == "mOoOoOoOoz" ]]; then
+            echo -n ":|"
+        elif [[ $part == "mOoOoOoOoOz" ]]; then
+            echo -n ";|"
+        elif [[ $part == "mOoOoOoOoOoz" ]]; then
+            echo -n ":-|"
+        elif [[ $part == "mOoOoOoOoOoOz" ]]; then
+            echo -n ";-|"
+        elif [[ $part == "mOoOoOoOoOoOoz" ]]; then
+            echo -n ":]"
+        elif [[ $part == "mOoOoOoOoOoOoOz" ]]; then
+            echo -n ";]"
+        elif [[ $part == "mOoOoOoOoOoOoOoz" ]]; then
+            echo -n ":-]"
+        elif [[ $part == "mOoOoOoOoOoOoOoOz" ]]; then
+            echo -n ";-]"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n ":["
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n ";["
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n ":-["
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n ";-["
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n ":}"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n ";}"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n ":-}"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n ";-}"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n ":{"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n ";{"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n ":-{"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n ";-{"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n "+_+"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n "#_#"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n "=_="
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n "°_°"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n "•_•"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n "×_×"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n "*_*"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n "@_@"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n "O_O"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOz" ]]; then
+            echo -n "$_$"
+        elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
+            echo -n "^_^"
         else
             echo "Unknown word"
         fi
