@@ -276,6 +276,22 @@ if [[ $line == *"*"* ]]; then
             echo -n -e "\033[96m"
         elif [[ $pa == "MOOOOOOOOZ" ]]; then
             echo -n -e "\033[97m"
+        elif [[ $pa == "MoZ" ]]; then
+            echo -n -e "\033[100m"
+        elif [[ $pa == "MooZ" ]]; then
+            echo -n -e "\033[101m"
+        elif [[ $pa == "MoooZ" ]]; then
+            echo -n -e "\033[102m"
+        elif [[ $pa == "MooooZ" ]]; then
+            echo -n -e "\033[103m"
+        elif [[ $pa == "MoooooZ" ]]; then
+            echo -n -e "\033[104m"
+        elif [[ $pa == "MooooooZ" ]]; then
+            echo -n -e "\033[105m"
+        elif [[ $pa == "MoooooooZ" ]]; then
+            echo -n -e "\033[106m"
+        elif [[ $pa == "MooooooooZ" ]]; then
+            echo -n -e "\033[107m"
         else
             echo "Unknown word"
         fi
@@ -574,6 +590,22 @@ if [[ $string == *"*"* ]]; then
             echo -n -e "\033[96m"
         elif [[ $part == "MOOOOOOOOZ" ]]; then
             echo -n -e "\033[97m"
+               elif [[ $part == "MoZ" ]]; then
+            echo -n -e "\033[100m"
+        elif [[ $part == "MooZ" ]]; then
+            echo -n -e "\033[101m"
+        elif [[ $part == "MoooZ" ]]; then
+            echo -n -e "\033[102m"
+        elif [[ $part == "MooooZ" ]]; then
+            echo -n -e "\033[103m"
+        elif [[ $part == "MoooooZ" ]]; then
+            echo -n -e "\033[104m"
+        elif [[ $part == "MooooooZ" ]]; then
+            echo -n -e "\033[105m"
+        elif [[ $part == "MoooooooZ" ]]; then
+            echo -n -e "\033[106m"
+        elif [[ $part == "MooooooooZ" ]]; then
+            echo -n -e "\033[107m"
         else
             echo "Unknown word"
         fi
