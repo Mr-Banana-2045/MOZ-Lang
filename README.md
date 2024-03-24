@@ -18,6 +18,11 @@ mOoOoOoOoOoOoz*
 <pre>
   mOOOOOOz*
 </pre>
+* add color
+<pre>
+  MOOZ*
+  MOOOOZ*
+</pre>
 ## photo
 ![IMG_20240312_215029](https://github.com/Mr-Banana-2045/MOZ-Lang/assets/109140672/0943deb3-c26a-4c79-86eb-d661643bf51e)
 
