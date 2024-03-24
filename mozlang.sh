@@ -10,53 +10,112 @@ do
 if [[ $line == *"*"* ]]; then
     par=(${line//\*/ })
     for pa in "${par[@]}"; do
-        if [[ $pa == "mozmozmozmozmoz" ]]; then                                                                                                                     echo -n "a"                                                                                                                                         elif [[ $pa == "mozmozmozmozmozmoz" ]]; then
-            echo -n "b"                                                                                                                                         elif [[ $pa == "mozmozmozmozmozmozmoz" ]]; then
+        if [[ $pa == "mozmozmozmozmoz" ]]; then
+            echo -n "a"
+        elif [[ $pa == "mozmozmozmozmoZ" ]]; then
+            echo -n "A"
+        elif [[ $pa == "mz" ]]; then
+            echo -n -e "\n"
+        elif [[ $pa == "mozmozmozmozmozmoz" ]]; then
+            echo -n "b"
+        elif [[ $pa == "mozmozmozmozmozmoZ" ]]; then
+            echo -n "B"
+        elif [[ $pa == "mozmozmozmozmozmozmoz" ]]; then
             echo -n "c"
+        elif [[ $pa == "mozmozmozmozmozmozmoZ" ]]; then
+            echo -n "C"
         elif [[ $pa == "mozmozmozmozmozmozmozmoz" ]]; then
             echo -n "d"
+        elif [[ $pa == "mozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "D"
         elif [[ $pa == "mozmoz" ]]; then
             echo -n "e"
+        elif [[ $pa == "mozmoZ" ]]; then
+            echo -n "E"
         elif [[ $pa == "mozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "f"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "F"
         elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "g"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "G"
         elif [[ $pa == "mozmozmoz" ]]; then
             echo -n "h"
+        elif [[ $pa == "mozmozmoZ" ]]; then
+            echo -n "H"
         elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "i"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "I"
         elif [[ $pa == "mozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "j"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "J"
         elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "k"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "K"
         elif [[ $pa == "moz" ]]; then
             echo -n "l"
+        elif [[ $pa == "moZ" ]]; then
+            echo -n "L"
         elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "m"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "M"
         elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "n"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "N"
         elif [[ $pa == "mozmozmozmoz" ]]; then
             echo -n "o"
+        elif [[ $pa == "mozmozmozmoZ" ]]; then
+            echo -n "O"
         elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "p"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "P"
         elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "q"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "Q"
         elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "r"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "R"
         elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "t"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "T"
         elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "u"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "U"
         elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "v"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "V"
         elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "w"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "W"
         elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "x"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "X"
         elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "y"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "Y"
         elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "z"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "Z"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "s"
+        elif [[ $pa == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "S"
         elif [[ $pa == "mooz" ]]; then
             echo -n "@"
         elif [[ $pa == "moooz" ]]; then
@@ -101,6 +160,10 @@ if [[ $line == *"*"* ]]; then
             echo -n "["
         elif [[ $pa == "moooooooooooooooooooooooz" ]]; then
             echo -n "]"
+        elif [[ $pa == "mooooooooooooooooooooooooz" ]]; then
+            echo -n "|"
+        elif [[ $pa == "moooooooooooooooooooooooooz" ]]; then
+            echo -n "•"
         elif [[ $pa == "mOz" ]]; then
             echo -n "0"
         elif [[ $pa == "mOOz" ]]; then
@@ -137,7 +200,9 @@ if [[ $line == *"*"* ]]; then
             echo -n ";-/"
         elif [[ $pa == "mOoOoOoOoz" ]]; then
             echo -n ":|"
-        elif [[ $pa == "mOoOoOoOoOz" ]]; then                                                                         echo -n ";|"                                                                                          elif [[ $pa == "mOoOoOoOoOoz" ]]; then
+        elif [[ $pa == "mOoOoOoOoOz" ]]; then
+            echo -n ";|"
+        elif [[ $pa == "mOoOoOoOoOoz" ]]; then
             echo -n ":-|"
         elif [[ $pa == "mOoOoOoOoOoOz" ]]; then
             echo -n ";-|"
@@ -195,6 +260,22 @@ if [[ $line == *"*"* ]]; then
             echo -n "$_$"
         elif [[ $pa == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
             echo -n "^_^"
+        elif [[ $pa == "MOZ" ]]; then
+            echo -n -e "\033[90m"
+        elif [[ $pa == "MOOZ" ]]; then
+            echo -n -e "\033[91m"
+        elif [[ $pa == "MOOOZ" ]]; then
+            echo -n -e "\033[92m"
+        elif [[ $pa == "MOOOOZ" ]]; then
+            echo -n -e "\033[93m"
+        elif [[ $pa == "MOOOOOZ" ]]; then
+            echo -n -e "\033[94m"
+        elif [[ $pa == "MOOOOOOZ" ]]; then
+            echo -n -e "\033[95m"
+        elif [[ $pa == "MOOOOOOOZ" ]]; then
+            echo -n -e "\033[96m"
+        elif [[ $pa == "MOOOOOOOOZ" ]]; then
+            echo -n -e "\033[97m"
         else
             echo "Unknown word"
         fi
@@ -204,6 +285,11 @@ else
 fi
 done < $2
 echo -e "\n"
+exit
+shift
+;;
+-*)
+echo "Error :("
 exit
 shift
 ;;
@@ -228,54 +314,110 @@ if [[ $string == *"*"* ]]; then
     for part in "${parts[@]}"; do
         if [[ $part == "mozmozmozmozmoz" ]]; then
             echo -n "a"
+        elif [[ $part == "mozmozmozmozmoZ" ]]; then
+            echo -n "A"
+        elif [[ $part == "mz" ]]; then
+            echo -n -e "\n"
         elif [[ $part == "mozmozmozmozmozmoz" ]]; then
             echo -n "b"
+        elif [[ $part == "mozmozmozmozmozmoZ" ]]; then
+            echo -n "B"
         elif [[ $part == "mozmozmozmozmozmozmoz" ]]; then
             echo -n "c"
+        elif [[ $part == "mozmozmozmozmozmozmoZ" ]]; then
+            echo -n "C"
         elif [[ $part == "mozmozmozmozmozmozmozmoz" ]]; then
             echo -n "d"
+        elif [[ $part == "mozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "D"
         elif [[ $part == "mozmoz" ]]; then
             echo -n "e"
+        elif [[ $part == "mozmoZ" ]]; then
+            echo -n "E"
         elif [[ $part == "mozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "f"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "F"
         elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "g"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "G"
         elif [[ $part == "mozmozmoz" ]]; then
             echo -n "h"
+        elif [[ $part == "mozmozmoZ" ]]; then
+            echo -n "H"
         elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "i"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "I"
         elif [[ $part == "mozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "j"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "J"
         elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "k"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "K"
         elif [[ $part == "moz" ]]; then
             echo -n "l"
+        elif [[ $part == "moZ" ]]; then
+            echo -n "L"
         elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "m"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "M"
         elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "n"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "N"
         elif [[ $part == "mozmozmozmoz" ]]; then
             echo -n "o"
+        elif [[ $part == "mozmozmozmoZ" ]]; then
+            echo -n "O"
         elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "p"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "P"
         elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "q"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "Q"
         elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "r"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "R"
         elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "t"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "T"
         elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "u"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "U"
         elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "v"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "V"
         elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "w"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "W"
         elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "x"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "X"
         elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "y"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "Y"
         elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
             echo -n "z"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "Z"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoz" ]]; then
+            echo -n "s"
+        elif [[ $part == "mozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmozmoZ" ]]; then
+            echo -n "S"
         elif [[ $part == "mooz" ]]; then
             echo -n "@"
         elif [[ $part == "moooz" ]]; then
@@ -285,9 +427,7 @@ if [[ $string == *"*"* ]]; then
         elif [[ $part == "moooooz" ]]; then
             echo -n "_"
         elif [[ $part == "mooooooz" ]]; then
-            echo -n "&"
-        elif [[ $part == "moooooooz" ]]; then
-            echo -n "-"                                                                                                                                         elif [[ $part == "mooooooooz" ]]; then                                                                                                                      echo -n "+"
+            echo -n "+"
         elif [[ $part == "moooooooooz" ]]; then
             echo -n "("
         elif [[ $part == "mooooooooooz" ]]; then
@@ -318,6 +458,10 @@ if [[ $string == *"*"* ]]; then
             echo -n "["
         elif [[ $part == "moooooooooooooooooooooooz" ]]; then
             echo -n "]"
+        elif [[ $part == "mooooooooooooooooooooooooz" ]]; then
+            echo -n "|"
+        elif [[ $part == "moooooooooooooooooooooooooz" ]]; then
+            echo -n "•"
         elif [[ $part == "mOz" ]]; then
             echo -n "0"
         elif [[ $part == "mOOz" ]]; then
@@ -414,6 +558,22 @@ if [[ $string == *"*"* ]]; then
             echo -n "$_$"
         elif [[ $part == "mOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoz" ]]; then
             echo -n "^_^"
+        elif [[ $part == "MOZ" ]]; then
+            echo -n -e "\033[90m"
+        elif [[ $part == "MOOZ" ]]; then
+            echo -n -e "\033[91m"
+        elif [[ $part == "MOOOZ" ]]; then
+            echo -n -e "\033[92m"
+        elif [[ $part == "MOOOOZ" ]]; then
+            echo -n -e "\033[93m"
+        elif [[ $part == "MOOOOOZ" ]]; then
+            echo -n -e "\033[94m"
+        elif [[ $part == "MOOOOOOZ" ]]; then
+            echo -n -e "\033[95m"
+        elif [[ $part == "MOOOOOOOZ" ]]; then
+            echo -n -e "\033[96m"
+        elif [[ $part == "MOOOOOOOOZ" ]]; then
+            echo -n -e "\033[97m"
         else
             echo "Unknown word"
         fi
