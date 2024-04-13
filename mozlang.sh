@@ -292,6 +292,8 @@ if [[ $line == *"*"* ]]; then
             echo -n -e "\033[106m"
         elif [[ $pa == "MooooooooZ" ]]; then
             echo -n -e "\033[107m"
+        elif [[ $pa == "MoooooooooZ" ]]; then
+            echo -n -e "\033[000m"
         else
             echo "Unknown word"
         fi
@@ -606,6 +608,8 @@ if [[ $string == *"*"* ]]; then
             echo -n -e "\033[106m"
         elif [[ $part == "MooooooooZ" ]]; then
             echo -n -e "\033[107m"
+        elif [[ $part == "MoooooooooZ" ]]; then
+            echo -n -e "\033[000m"
         else
             echo "Unknown word"
         fi
